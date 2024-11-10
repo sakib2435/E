@@ -1,0 +1,79 @@
+.secttion-part{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav>ul>li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+
+nav>ul>li>a:hover{
+    color: yellow;
+}
+
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.date,
+.Day{
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.Day{
+    font-size: 25px;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.Day:hover{
+    color: yellow;
+}
+
+.date:hover{
+    color: yellow;
+}
+
+h3:hover{
+    color: black;
+}
